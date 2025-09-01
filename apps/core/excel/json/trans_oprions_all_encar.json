@@ -1,0 +1,2272 @@
+{
+  "SellType": [
+    {
+      "Value": "일반",
+      "name_kr": "일반",
+      "name_en": "Standard sale",
+      "name_ru": "Обычная продажа",
+      "Code": "1"
+    },
+    {
+      "Value": "리스",
+      "name_kr": "리스",
+      "name_en": "Lease",
+      "name_ru": "Лизинг",
+      "Code": "2"
+    },
+    {
+      "Value": "렌트",
+      "name_kr": "렌트",
+      "name_en": "Rental",
+      "name_ru": "Прокат/аренда",
+      "Code": "3"
+    }
+  ],
+  "LeaseType": [
+    {
+      "Value": "운용리스",
+      "name_kr": "운용리스",
+      "name_en": "Operating lease",
+      "name_ru": "Операционный лизинг",
+      "Code": "21"
+    },
+    {
+      "Value": "금융리스",
+      "name_kr": "금융리스",
+      "name_en": "Financial lease",
+      "name_ru": "Финансовый лизинг",
+      "Code": "22"
+    },
+    {
+      "Value": "렌트승계",
+      "name_kr": "렌트승계",
+      "name_en": "Rental takeover",
+      "name_ru": "Переуступка аренды",
+      "Code": "31"
+    },
+    {
+      "Value": "장기렌트",
+      "name_kr": "장기렌트",
+      "name_en": "Long-term rental",
+      "name_ru": "Долгосрочная аренда",
+      "Code": "32"
+    }
+  ],
+  "LeaseBenefits": [
+    {
+      "Value": "승계지원금 포함",
+      "name_kr": "승계지원금 포함",
+      "name_en": "Transfer subsidy included",
+      "name_ru": "Включена субсидия на переуступку",
+      "Code": ""
+    },
+    {
+      "Value": "자동차세 포함",
+      "name_kr": "자동차세 포함",
+      "name_en": "Vehicle tax included",
+      "name_ru": "Включён транспортный налог",
+      "Code": ""
+    }
+  ],
+  "Transmission": [
+    {
+      "Value": "오토",
+      "name_kr": "오토",
+      "name_en": "Automatic",
+      "name_ru": "Автомат",
+      "Code": "001"
+    },
+    {
+      "Value": "수동",
+      "name_kr": "수동",
+      "name_en": "Manual",
+      "name_ru": "Механика",
+      "Code": "002"
+    },
+    {
+      "Value": "세미오토",
+      "name_kr": "세미오토",
+      "name_en": "Semi-automatic",
+      "name_ru": "Полуавтомат",
+      "Code": "003"
+    },
+    {
+      "Value": "CVT",
+      "name_kr": "CVT",
+      "name_en": "CVT",
+      "name_ru": "Вариатор (CVT)",
+      "Code": "004"
+    },
+    {
+      "Value": "기타",
+      "name_kr": "기타",
+      "name_en": "Other",
+      "name_ru": "Другое",
+      "Code": "999"
+    }
+  ],
+  "CityState": [
+    {
+      "Value": "전국 배송",
+      "name_kr": "전국 배송",
+      "name_en": "Nationwide delivery",
+      "name_ru": "Доставка по всей стране",
+      "Code": ""
+    },
+    {
+      "Value": "서울",
+      "name_kr": "서울",
+      "name_en": "Seoul",
+      "name_ru": "Сеул",
+      "Code": ""
+    },
+    {
+      "Value": "경기",
+      "name_kr": "경기",
+      "name_en": "Gyeonggi",
+      "name_ru": "Кёнги",
+      "Code": ""
+    },
+    {
+      "Value": "인천",
+      "name_kr": "인천",
+      "name_en": "Incheon",
+      "name_ru": "Инчхон",
+      "Code": ""
+    },
+    {
+      "Value": "대전",
+      "name_kr": "대전",
+      "name_en": "Daejeon",
+      "name_ru": "Тэджон",
+      "Code": ""
+    },
+    {
+      "Value": "세종",
+      "name_kr": "세종",
+      "name_en": "Sejong",
+      "name_ru": "Седжон",
+      "Code": ""
+    },
+    {
+      "Value": "충남",
+      "name_kr": "충남",
+      "name_en": "South Chungcheong",
+      "name_ru": "Южная Чхунчхон",
+      "Code": ""
+    },
+    {
+      "Value": "충북",
+      "name_kr": "충북",
+      "name_en": "North Chungcheong",
+      "name_ru": "Северная Чхунчхон",
+      "Code": ""
+    },
+    {
+      "Value": "강원",
+      "name_kr": "강원",
+      "name_en": "Gangwon",
+      "name_ru": "Канвондо",
+      "Code": ""
+    },
+    {
+      "Value": "부산",
+      "name_kr": "부산",
+      "name_en": "Busan",
+      "name_ru": "Пусан",
+      "Code": ""
+    },
+    {
+      "Value": "대구",
+      "name_kr": "대구",
+      "name_en": "Daegu",
+      "name_ru": "Тэгу",
+      "Code": ""
+    },
+    {
+      "Value": "울산",
+      "name_kr": "울산",
+      "name_en": "Ulsan",
+      "name_ru": "Ульсан",
+      "Code": ""
+    },
+    {
+      "Value": "경남",
+      "name_kr": "경남",
+      "name_en": "South Gyeongsang",
+      "name_ru": "Южная Кёнсан",
+      "Code": ""
+    },
+    {
+      "Value": "경북",
+      "name_kr": "경북",
+      "name_en": "North Gyeongsang",
+      "name_ru": "Северная Кёнсан",
+      "Code": ""
+    },
+    {
+      "Value": "광주",
+      "name_kr": "광주",
+      "name_en": "Gwangju",
+      "name_ru": "Кванджу",
+      "Code": ""
+    },
+    {
+      "Value": "전남",
+      "name_kr": "전남",
+      "name_en": "South Jeolla",
+      "name_ru": "Южная Чолла",
+      "Code": ""
+    },
+    {
+      "Value": "전북",
+      "name_kr": "전북",
+      "name_en": "North Jeolla",
+      "name_ru": "Северная Чолла",
+      "Code": ""
+    },
+    {
+      "Value": "제주",
+      "name_kr": "제주",
+      "name_en": "Jeju",
+      "name_ru": "Чеджу",
+      "Code": ""
+    }
+  ],
+  "FuelType": [
+    {
+      "Value": "가솔린",
+      "name_kr": "가솔린",
+      "name_en": "Gasoline",
+      "name_ru": "Бензин",
+      "Code": "001"
+    },
+    {
+      "Value": "디젤",
+      "name_kr": "디젤",
+      "name_en": "Diesel",
+      "name_ru": "Дизель",
+      "Code": "002"
+    },
+    {
+      "Value": "LPG(일반인 구입)",
+      "name_kr": "LPG(일반인 구입)",
+      "name_en": "LPG (public purchase)",
+      "name_ru": "LPG (для частных лиц)",
+      "Code": "003"
+    },
+    {
+      "Value": "가솔린+전기",
+      "name_kr": "가솔린+전기",
+      "name_en": "Gasoline + Electric (Hybrid)",
+      "name_ru": "Бензин + Электро (гибрид)",
+      "Code": "006"
+    },
+    {
+      "Value": "디젤+전기",
+      "name_kr": "디젤+전기",
+      "name_en": "Diesel + Electric (Hybrid)",
+      "name_ru": "Дизель + Электро (гибрид)",
+      "Code": "007"
+    },
+    {
+      "Value": "LPG+전기",
+      "name_kr": "LPG+전기",
+      "name_en": "LPG + Electric (Hybrid)",
+      "name_ru": "LPG + Электро (гибрид)",
+      "Code": "008"
+    },
+    {
+      "Value": "가솔린+LPG",
+      "name_kr": "가솔린+LPG",
+      "name_en": "Gasoline + LPG",
+      "name_ru": "Бензин + LPG",
+      "Code": "005"
+    },
+    {
+      "Value": "가솔린+CNG",
+      "name_kr": "가솔린+CNG",
+      "name_en": "Gasoline + CNG",
+      "name_ru": "Бензин + CNG",
+      "Code": "010"
+    },
+    {
+      "Value": "전기",
+      "name_kr": "전기",
+      "name_en": "Electric",
+      "name_ru": "Электро",
+      "Code": "009"
+    },
+    {
+      "Value": "수소",
+      "name_kr": "수소",
+      "name_en": "Hydrogen",
+      "name_ru": "Водород",
+      "Code": "013"
+    },
+    {
+      "Value": "기타",
+      "name_kr": "기타",
+      "name_en": "Other",
+      "name_ru": "Другое",
+      "Code": "999"
+    }
+  ],
+  "Trust": [
+    {
+      "Value": "Meetgo",
+      "name_kr": "믿고",
+      "name_en": "Meetgo",
+      "name_ru": "Meetgo",
+      "Code": ""
+    },
+    {
+      "Value": "HomeService",
+      "name_kr": "엔카홈서비스",
+      "name_en": "Encar Home Service",
+      "name_ru": "Encar Home Service",
+      "Code": ""
+    },
+    {
+      "Value": "Warranty",
+      "name_kr": "엔카진단",
+      "name_en": "Encar Diagnosis",
+      "name_ru": "Encar Diagnosis",
+      "Code": ""
+    },
+    {
+      "Value": "ExtendWarranty",
+      "name_kr": "엔카보증",
+      "name_en": "Encar Warranty",
+      "name_ru": "Encar Warranty",
+      "Code": ""
+    },
+    {
+      "Value": "Compensate",
+      "name_kr": "헛걸음보상",
+      "name_en": "Wasted-trip compensation",
+      "name_ru": "Компенсация за напрасную поездку",
+      "Code": ""
+    }
+  ],
+  "Service": [
+    {
+      "Value": "EncarMeetgo",
+      "name_kr": "엔카믿고",
+      "name_en": "Encar Meetgo",
+      "name_ru": "Encar Meetgo",
+      "Code": ""
+    },
+    {
+      "Value": "EncarDiagnosis",
+      "name_kr": "엔카진단",
+      "name_en": "Encar Diagnosis",
+      "name_ru": "Encar Diagnosis",
+      "Code": ""
+    },
+    {
+      "Value": "ExtendWarranty",
+      "name_kr": "엔카종합보증",
+      "name_en": "Encar Comprehensive Warranty",
+      "name_ru": "Encar Comprehensive Warranty",
+      "Code": ""
+    },
+    {
+      "Value": "Compensate",
+      "name_kr": "헛걸음보상",
+      "name_en": "Wasted-trip compensation",
+      "name_ru": "Компенсация за напрасную поездку",
+      "Code": ""
+    }
+  ],
+  "ServiceMark": [
+    {
+      "Value": "EncarDiagnosisP0",
+      "name_kr": "엔카진단",
+      "name_en": "Encar Diagnosis",
+      "name_ru": "Encar Diagnosis",
+      "Code": ""
+    },
+    {
+      "Value": "EncarDiagnosisP1",
+      "name_kr": "엔카진단+",
+      "name_en": "Encar Diagnosis+",
+      "name_ru": "Encar Diagnosis+",
+      "Code": ""
+    },
+    {
+      "Value": "EncarDiagnosisP2",
+      "name_kr": "엔카진단++",
+      "name_en": "Encar Diagnosis++",
+      "name_ru": "Encar Diagnosis++",
+      "Code": ""
+    }
+  ],
+  "Condition": [
+    {
+      "Value": "InspectionDirect",
+      "name_kr": "엔카 직영 성능점검",
+      "name_en": "Encar direct performance inspection",
+      "name_ru": "Фирменная проверка характеристик Encar",
+      "Code": ""
+    },
+    {
+      "Value": "Inspection",
+      "name_kr": "성능기록부",
+      "name_en": "Performance record",
+      "name_ru": "Отчёт о характеристиках",
+      "Code": ""
+    },
+    {
+      "Value": "Record",
+      "name_kr": "보험이력",
+      "name_en": "Insurance history",
+      "name_ru": "Страховая история",
+      "Code": ""
+    },
+    {
+      "Value": "Resume",
+      "name_kr": "차량 이력 공개",
+      "name_en": "Vehicle history disclosure",
+      "name_ru": "Раскрытие истории автомобиля",
+      "Code": ""
+    }
+  ],
+  "BuyType": [
+    {
+      "Value": "Delivery",
+      "name_kr": "믿고 배송",
+      "name_en": "Meetgo delivery",
+      "name_ru": "Доставка Meetgo",
+      "Code": ""
+    },
+    {
+      "Value": "Visit",
+      "name_kr": "믿고 방문",
+      "name_en": "Meetgo visit",
+      "name_ru": "Посещение Meetgo",
+      "Code": ""
+    }
+  ],
+  "Separation": [
+    {
+      "Value": "A",
+      "name_kr": "개인",
+      "name_en": "Private seller",
+      "name_ru": "Частник",
+      "Code": ""
+    },
+    {
+      "Value": "B",
+      "name_kr": "딜러",
+      "name_en": "Dealer",
+      "name_ru": "Дилер",
+      "Code": ""
+    },
+    {
+      "Value": "F",
+      "name_kr": "브랜드인증",
+      "name_en": "Brand certified",
+      "name_ru": "Сертифицирован брендом",
+      "Code": ""
+    },
+    {
+      "Value": "R",
+      "name_kr": "리스렌트제휴",
+      "name_en": "Lease/Rent partnership",
+      "name_ru": "Партнёрство лизинг/аренда",
+      "Code": ""
+    }
+  ],
+  "SeatingCapacity": [
+    {
+      "Value": "2인승 이하",
+      "name_kr": "2인승 이하",
+      "name_en": "Up to 2 seats",
+      "name_ru": "До 2 мест",
+      "Code": ""
+    },
+    {
+      "Value": "3인승",
+      "name_kr": "3인승",
+      "name_en": "3-seater",
+      "name_ru": "3-местный",
+      "Code": ""
+    },
+    {
+      "Value": "4인승",
+      "name_kr": "4인승",
+      "name_en": "4-seater",
+      "name_ru": "4-местный",
+      "Code": ""
+    },
+    {
+      "Value": "5인승",
+      "name_kr": "5인승",
+      "name_en": "5-seater",
+      "name_ru": "5-местный",
+      "Code": ""
+    },
+    {
+      "Value": "6인승",
+      "name_kr": "6인승",
+      "name_en": "6-seater",
+      "name_ru": "6-местный",
+      "Code": ""
+    },
+    {
+      "Value": "7인승",
+      "name_kr": "7인승",
+      "name_en": "7-seater",
+      "name_ru": "7-местный",
+      "Code": ""
+    },
+    {
+      "Value": "8인승",
+      "name_kr": "8인승",
+      "name_en": "8-seater",
+      "name_ru": "8-местный",
+      "Code": ""
+    },
+    {
+      "Value": "9인승",
+      "name_kr": "9인승",
+      "name_en": "9-seater",
+      "name_ru": "9-местный",
+      "Code": ""
+    },
+    {
+      "Value": "10인승 이상",
+      "name_kr": "10인승 이상",
+      "name_en": "10 seats or more",
+      "name_ru": "10 мест и более",
+      "Code": ""
+    }
+  ],
+  "Color": [
+    {
+      "Value": "흰색",
+      "name_kr": "흰색",
+      "name_en": "White",
+      "name_ru": "Белый",
+      "Code": "#ffffff"
+    },
+    {
+      "Value": "검정색",
+      "name_kr": "검정색",
+      "name_en": "Black",
+      "name_ru": "Чёрный",
+      "Code": "#000000"
+    },
+    {
+      "Value": "쥐색",
+      "name_kr": "쥐색",
+      "name_en": "Gray",
+      "name_ru": "Серый",
+      "Code": "#585A59"
+    },
+    {
+      "Value": "은색",
+      "name_kr": "은색",
+      "name_en": "Silver",
+      "name_ru": "Серебристый",
+      "Code": "#C0C0C0"
+    },
+    {
+      "Value": "청색",
+      "name_kr": "청색",
+      "name_en": "Blue",
+      "name_ru": "Синий",
+      "Code": "#124280"
+    },
+    {
+      "Value": "은회색",
+      "name_kr": "은회색",
+      "name_en": "Silver gray",
+      "name_ru": "Серебристо-серый",
+      "Code": "#D3D3D3"
+    },
+    {
+      "Value": "진주색",
+      "name_kr": "진주색",
+      "name_en": "Pearl",
+      "name_ru": "Перламутровый",
+      "Code": "#FFFAFA"
+    },
+    {
+      "Value": "빨간색",
+      "name_kr": "빨간색",
+      "name_en": "Red",
+      "name_ru": "Красный",
+      "Code": "#ff0000"
+    },
+    {
+      "Value": "노란색",
+      "name_kr": "노란색",
+      "name_en": "Yellow",
+      "name_ru": "Жёлтый",
+      "Code": "#ffff00"
+    },
+    {
+      "Value": "하늘색",
+      "name_kr": "하늘색",
+      "name_en": "Sky blue",
+      "name_ru": "Небесно-голубой",
+      "Code": "#75919C"
+    },
+    {
+      "Value": "갈색",
+      "name_kr": "갈색",
+      "name_en": "Brown",
+      "name_ru": "Коричневый",
+      "Code": "#3D3624"
+    },
+    {
+      "Value": "담녹색",
+      "name_kr": "담녹색",
+      "name_en": "Light green",
+      "name_ru": "Светло-зелёный",
+      "Code": "#1D444B"
+    },
+    {
+      "Value": "녹색",
+      "name_kr": "녹색",
+      "name_en": "Green",
+      "name_ru": "Зелёный",
+      "Code": "#00cc00"
+    },
+    {
+      "Value": "연금색",
+      "name_kr": "연금색",
+      "name_en": "Light gold",
+      "name_ru": "Светло-золотой",
+      "Code": "#8E8574"
+    },
+    {
+      "Value": "연두색",
+      "name_kr": "연두색",
+      "name_en": "Yellow green",
+      "name_ru": "Жёлто-зелёный",
+      "Code": "#9AB95C"
+    },
+    {
+      "Value": "명은색",
+      "name_kr": "명은색",
+      "name_en": "Bright silver",
+      "name_ru": "Ярко-серебристый",
+      "Code": "#CFD8E7"
+    },
+    {
+      "Value": "자주색",
+      "name_kr": "자주색",
+      "name_en": "Burgundy",
+      "name_ru": "Бордовый",
+      "Code": "#800080"
+    },
+    {
+      "Value": "주황색",
+      "name_kr": "주황색",
+      "name_en": "Orange",
+      "name_ru": "Оранжевый",
+      "Code": "#A94828"
+    },
+    {
+      "Value": "분홍색",
+      "name_kr": "분홍색",
+      "name_en": "Pink",
+      "name_ru": "Розовый",
+      "Code": "#EECACE"
+    },
+    {
+      "Value": "청옥색",
+      "name_kr": "청옥색",
+      "name_en": "Turquoise",
+      "name_ru": "Бирюзовый",
+      "Code": "#1F7D7C"
+    },
+    {
+      "Value": "갈대색",
+      "name_kr": "갈대색",
+      "name_en": "Reed",
+      "name_ru": "Бежевый (тростник)",
+      "Code": "#808275"
+    },
+    {
+      "Value": "은하색",
+      "name_kr": "은하색",
+      "name_en": "Galaxy",
+      "name_ru": "Галактический",
+      "Code": "#A6B2B0"
+    },
+    {
+      "Value": "보라색",
+      "name_kr": "보라색",
+      "name_en": "Purple",
+      "name_ru": "Фиолетовый",
+      "Code": "#46293B"
+    },
+    {
+      "Value": "검정투톤",
+      "name_kr": "검정투톤",
+      "name_en": "Black two-tone",
+      "name_ru": "Чёрный двухцветный",
+      "Code": "#000000;#464741"
+    },
+    {
+      "Value": "흰색투톤",
+      "name_kr": "흰색투톤",
+      "name_en": "White two-tone",
+      "name_ru": "Белый двухцветный",
+      "Code": "#ffffff;#464741"
+    },
+    {
+      "Value": "은색투톤",
+      "name_kr": "은색투톤",
+      "name_en": "Silver two-tone",
+      "name_ru": "Серебристый двухцветный",
+      "Code": "#c0c0c0;#464741"
+    },
+    {
+      "Value": "금색",
+      "name_kr": "금색",
+      "name_en": "Gold",
+      "name_ru": "Золотой",
+      "Code": "#837538"
+    },
+    {
+      "Value": "진주투톤",
+      "name_kr": "진주투톤",
+      "name_en": "Pearl two-tone",
+      "name_ru": "Перламутровый двухцветный",
+      "Code": "#F7F7F5;#464741"
+    },
+    {
+      "Value": "갈색투톤",
+      "name_kr": "갈색투톤",
+      "name_en": "Brown two-tone",
+      "name_ru": "Коричневый двухцветный",
+      "Code": "#3D3624;#464741"
+    },
+    {
+      "Value": "금색투톤",
+      "name_kr": "금색투톤",
+      "name_en": "Gold two-tone",
+      "name_ru": "Золотой двухцветный",
+      "Code": "#837538;#464741"
+    },
+    {
+      "Value": "기타 색상",
+      "name_kr": "기타 색상",
+      "name_en": "Other color",
+      "name_ru": "Другой цвет",
+      "Code": "any"
+    }
+  ],
+  "SeatColor": [
+    {
+      "Value": "검정색 계열",
+      "name_kr": "검정색 계열",
+      "name_en": "Black tone",
+      "name_ru": "Чёрный тон",
+      "Code": "#000000"
+    },
+    {
+      "Value": "갈색 계열",
+      "name_kr": "갈색 계열",
+      "name_en": "Brown tone",
+      "name_ru": "Коричневый тон",
+      "Code": "#DFA46E"
+    },
+    {
+      "Value": "회색 계열",
+      "name_kr": "회색 계열",
+      "name_en": "Gray tone",
+      "name_ru": "Серый тон",
+      "Code": "#CCCCCC"
+    },
+    {
+      "Value": "베이지색 계열",
+      "name_kr": "베이지색 계열",
+      "name_en": "Beige tone",
+      "name_ru": "Бежевый тон",
+      "Code": "#EFCC97"
+    },
+    {
+      "Value": "빨간색 계열",
+      "name_kr": "빨간색 계열",
+      "name_en": "Red tone",
+      "name_ru": "Красный тон",
+      "Code": "#D72E36"
+    },
+    {
+      "Value": "청색 계열",
+      "name_kr": "청색 계열",
+      "name_en": "Blue tone",
+      "name_ru": "Синий тон",
+      "Code": "#1B359B"
+    },
+    {
+      "Value": "흰색 계열",
+      "name_kr": "흰색 계열",
+      "name_en": "White tone",
+      "name_ru": "Белый тон",
+      "Code": "#E9E9E9"
+    },
+    {
+      "Value": "녹색 계열",
+      "name_kr": "녹색 계열",
+      "name_en": "Green tone",
+      "name_ru": "Зелёный тон",
+      "Code": "#1A9D4E"
+    },
+    {
+      "Value": "주황색 계열",
+      "name_kr": "주황색 계열",
+      "name_en": "Orange tone",
+      "name_ru": "Оранжевый тон",
+      "Code": "#EF6225"
+    },
+    {
+      "Value": "노란색 계열",
+      "name_kr": "노란색 계열",
+      "name_en": "Yellow tone",
+      "name_ru": "Жёлтый тон",
+      "Code": "#f4c43e"
+    }
+  ],
+  "Options": [
+    {
+      "Value": "선루프",
+      "name_kr": "선루프",
+      "name_en": "Sunroof",
+      "name_ru": "Люк",
+      "Code": "010"
+    },
+    {
+      "Value": "헤드램프(HID)",
+      "name_kr": "헤드램프(HID)",
+      "name_en": "Headlamps (HID)",
+      "name_ru": "Фары (HID)",
+      "Code": "029"
+    },
+    {
+      "Value": "헤드램프(LED)",
+      "name_kr": "헤드램프(LED)",
+      "name_en": "Headlamps (LED)",
+      "name_ru": "Фары (LED)",
+      "Code": "075"
+    },
+    {
+      "Value": "파워 전동 트렁크",
+      "name_kr": "파워 전동 트렁크",
+      "name_en": "Power liftgate",
+      "name_ru": "Электропривод багажника",
+      "Code": "059"
+    },
+    {
+      "Value": "고스트 도어 클로징",
+      "name_kr": "고스트 도어 클로징",
+      "name_en": "Soft-close doors",
+      "name_ru": "Плавные доводчики дверей",
+      "Code": "080"
+    },
+    {
+      "Value": "전동접이 사이드 미러",
+      "name_kr": "전동접이 사이드 미러",
+      "name_en": "Power-folding side mirrors",
+      "name_ru": "Складывающиеся зеркала с электроприводом",
+      "Code": "024"
+    },
+    {
+      "Value": "알루미늄 휠",
+      "name_kr": "알루미늄 휠",
+      "name_en": "Alloy wheels",
+      "name_ru": "Литые диски",
+      "Code": "017"
+    },
+    {
+      "Value": "루프랙",
+      "name_kr": "루프랙",
+      "name_en": "Roof rack",
+      "name_ru": "Багажник на крыше",
+      "Code": "062"
+    },
+    {
+      "Value": "열선 스티어링 휠",
+      "name_kr": "열선 스티어링 휠",
+      "name_en": "Heated steering wheel",
+      "name_ru": "Руль с подогревом",
+      "Code": "082"
+    },
+    {
+      "Value": "전동 조절 스티어링 휠",
+      "name_kr": "전동 조절 스티어링 휠",
+      "name_en": "Power adjustable steering wheel",
+      "name_ru": "Руль с электрорегулировкой",
+      "Code": "083"
+    },
+    {
+      "Value": "패들 시프트",
+      "name_kr": "패들 시프트",
+      "name_en": "Paddle shifters",
+      "name_ru": "Подрулевые лепестки",
+      "Code": "084"
+    },
+    {
+      "Value": "스티어링 휠 리모컨",
+      "name_kr": "스티어링 휠 리모컨",
+      "name_en": "Steering wheel controls",
+      "name_ru": "Кнопки на руле",
+      "Code": "031"
+    },
+    {
+      "Value": "ECM 룸미러",
+      "name_kr": "ECM 룸미러",
+      "name_en": "Auto-dimming rearview mirror (ECM)",
+      "name_ru": "Автозатемняемое зеркало (ECM)",
+      "Code": "030"
+    },
+    {
+      "Value": "하이패스",
+      "name_kr": "하이패스",
+      "name_en": "Hi-Pass toll transponder",
+      "name_ru": "Транспондер Hi-Pass",
+      "Code": "074"
+    },
+    {
+      "Value": "파워 도어록",
+      "name_kr": "파워 도어록",
+      "name_en": "Power door locks",
+      "name_ru": "Центральный замок (электропривод)",
+      "Code": "006"
+    },
+    {
+      "Value": "파워 스티어링 휠",
+      "name_kr": "파워 스티어링 휠",
+      "name_en": "Power steering",
+      "name_ru": "Усилитель руля",
+      "Code": "008"
+    },
+    {
+      "Value": "파워 윈도우",
+      "name_kr": "파워 윈도우",
+      "name_en": "Power windows",
+      "name_ru": "Стеклоподъёмники",
+      "Code": "007"
+    },
+    {
+      "Value": "에어백(운전석)",
+      "name_kr": "에어백(운전석)",
+      "name_en": "Airbag (driver)",
+      "name_ru": "Подушка безопасности (водитель)",
+      "Code": "026"
+    },
+    {
+      "Value": "에어백(동승석)",
+      "name_kr": "에어백(동승석)",
+      "name_en": "Airbag (passenger)",
+      "name_ru": "Подушка безопасности (пассажир)",
+      "Code": "027"
+    },
+    {
+      "Value": "에어백(사이드)",
+      "name_kr": "에어백(사이드)",
+      "name_en": "Side airbags",
+      "name_ru": "Боковые подушки безопасности",
+      "Code": "020"
+    },
+    {
+      "Value": "에어백(커튼)",
+      "name_kr": "에어백(커튼)",
+      "name_en": "Curtain airbags",
+      "name_ru": "Шторки безопасности",
+      "Code": "056"
+    },
+    {
+      "Value": "브레이크 잠김 방지(ABS)",
+      "name_kr": "브레이크 잠김 방지(ABS)",
+      "name_en": "ABS",
+      "name_ru": "ABS",
+      "Code": "001"
+    },
+    {
+      "Value": "미끄럼 방지(TCS)",
+      "name_kr": "미끄럼 방지(TCS)",
+      "name_en": "TCS (traction control)",
+      "name_ru": "TCS (антипробуксовочная)",
+      "Code": "019"
+    },
+    {
+      "Value": "차체자세 제어장치(ESC)",
+      "name_kr": "차체자세 제어장치(ESC)",
+      "name_en": "ESC (stability control)",
+      "name_ru": "ESC (стабилизация)",
+      "Code": "055"
+    },
+    {
+      "Value": "타이어 공기압센서(TPMS)",
+      "name_kr": "타이어 공기압센서(TPMS)",
+      "name_en": "TPMS",
+      "name_ru": "TPMS",
+      "Code": "033"
+    },
+    {
+      "Value": "차선이탈 경보 시스템(LDWS)",
+      "name_kr": "차선이탈 경보 시스템(LDWS)",
+      "name_en": "LDWS (lane departure warning)",
+      "name_ru": "LDWS (предупреждение о сходе с полосы)",
+      "Code": "088"
+    },
+    {
+      "Value": "전자제어 서스펜션(ECS)",
+      "name_kr": "전자제어 서스펜션(ECS)",
+      "name_en": "ECS (electronic suspension)",
+      "name_ru": "ECS (электронная подвеска)",
+      "Code": "002"
+    },
+    {
+      "Value": "주차감지센서(전방)",
+      "name_kr": "주차감지센서(전방)",
+      "name_en": "Parking sensors (front)",
+      "name_ru": "Датчики парктроника (передние)",
+      "Code": "085"
+    },
+    {
+      "Value": "주차감지센서(후방)",
+      "name_kr": "주차감지센서(후방)",
+      "name_en": "Parking sensors (rear)",
+      "name_ru": "Датчики парктроника (задние)",
+      "Code": "032"
+    },
+    {
+      "Value": "후측방 경보 시스템",
+      "name_kr": "후측방 경보 시스템",
+      "name_en": "Blind-spot warning",
+      "name_ru": "Система контроля слепых зон",
+      "Code": "086"
+    },
+    {
+      "Value": "후방 카메라",
+      "name_kr": "후방 카메라",
+      "name_en": "Rear camera",
+      "name_ru": "Камера заднего вида",
+      "Code": "058"
+    },
+    {
+      "Value": "360도 어라운드 뷰",
+      "name_kr": "360도 어라운드 뷰",
+      "name_en": "360° around view",
+      "name_ru": "Круговой обзор 360°",
+      "Code": "087"
+    },
+    {
+      "Value": "크루즈 컨트롤(일반)",
+      "name_kr": "크루즈 컨트롤(일반)",
+      "name_en": "Cruise control",
+      "name_ru": "Круиз-контроль",
+      "Code": "068"
+    },
+    {
+      "Value": "크루즈 컨트롤(어댑티브)",
+      "name_kr": "크루즈 컨트롤(어댑티브)",
+      "name_en": "Adaptive cruise control",
+      "name_ru": "Адаптивный круиз-контроль",
+      "Code": "079"
+    },
+    {
+      "Value": "헤드업 디스플레이(HUD)",
+      "name_kr": "헤드업 디스플레이(HUD)",
+      "name_en": "Head-up display (HUD)",
+      "name_ru": "Проекционный дисплей (HUD)",
+      "Code": "095"
+    },
+    {
+      "Value": "전자식 주차브레이크(EPB)",
+      "name_kr": "전자식 주차브레이크(EPB)",
+      "name_en": "Electronic parking brake (EPB)",
+      "name_ru": "Электронный стояночный тормоз (EPB)",
+      "Code": "094"
+    },
+    {
+      "Value": "자동 에어컨",
+      "name_kr": "자동 에어컨",
+      "name_en": "Automatic A/C",
+      "name_ru": "Климат-контроль",
+      "Code": "023"
+    },
+    {
+      "Value": "스마트키",
+      "name_kr": "스마트키",
+      "name_en": "Smart key",
+      "name_ru": "Smart-key",
+      "Code": "057"
+    },
+    {
+      "Value": "무선도어 잠금장치",
+      "name_kr": "무선도어 잠금장치",
+      "name_en": "Remote keyless entry",
+      "name_ru": "Дистанционное бесключевое закрытие",
+      "Code": "015"
+    },
+    {
+      "Value": "레인센서",
+      "name_kr": "레인센서",
+      "name_en": "Rain sensor",
+      "name_ru": "Датчик дождя",
+      "Code": "081"
+    },
+    {
+      "Value": "오토 라이트",
+      "name_kr": "오토 라이트",
+      "name_en": "Automatic headlights",
+      "name_ru": "Автоматический свет",
+      "Code": "097"
+    },
+    {
+      "Value": "커튼/블라인드(뒷좌석)",
+      "name_kr": "커튼/블라인드(뒷좌석)",
+      "name_en": "Rear seat curtains/blinds",
+      "name_ru": "Шторки (задний ряд)",
+      "Code": "092"
+    },
+    {
+      "Value": "커튼/블라인드(후방)",
+      "name_kr": "커튼/블라인드(후방)",
+      "name_en": "Rear window curtain/blind",
+      "name_ru": "Шторка заднего стекла",
+      "Code": "093"
+    },
+    {
+      "Value": "내비게이션",
+      "name_kr": "내비게이션",
+      "name_en": "Navigation",
+      "name_ru": "Навигация",
+      "Code": "005"
+    },
+    {
+      "Value": "앞좌석 AV 모니터",
+      "name_kr": "앞좌석 AV 모니터",
+      "name_en": "Front seat AV monitor",
+      "name_ru": "Мультимонитор передних сидений",
+      "Code": "004"
+    },
+    {
+      "Value": "뒷좌석 AV 모니터",
+      "name_kr": "뒷좌석 AV 모니터",
+      "name_en": "Rear seat AV monitor",
+      "name_ru": "Мультимонитор задних сидений",
+      "Code": "054"
+    },
+    {
+      "Value": "블루투스",
+      "name_kr": "블루투스",
+      "name_en": "Bluetooth",
+      "name_ru": "Bluetooth",
+      "Code": "096"
+    },
+    {
+      "Value": "CD 플레이어",
+      "name_kr": "CD 플레이어",
+      "name_en": "CD player",
+      "name_ru": "CD-проигрыватель",
+      "Code": "003"
+    },
+    {
+      "Value": "USB 단자",
+      "name_kr": "USB 단자",
+      "name_en": "USB port",
+      "name_ru": "Порт USB",
+      "Code": "072"
+    },
+    {
+      "Value": "AUX 단자",
+      "name_kr": "AUX 단자",
+      "name_en": "AUX port",
+      "name_ru": "Вход AUX",
+      "Code": "071"
+    },
+    {
+      "Value": "가죽시트",
+      "name_kr": "가죽시트",
+      "name_en": "Leather seats",
+      "name_ru": "Кожаные сиденья",
+      "Code": "014"
+    },
+    {
+      "Value": "전동시트(운전석)",
+      "name_kr": "전동시트(운전석)",
+      "name_en": "Power seat (driver)",
+      "name_ru": "Электросиденье (водитель)",
+      "Code": "021"
+    },
+    {
+      "Value": "전동시트(동승석)",
+      "name_kr": "전동시트(동승석)",
+      "name_en": "Power seat (passenger)",
+      "name_ru": "Электросиденье (пассажир)",
+      "Code": "035"
+    },
+    {
+      "Value": "전동시트(뒷좌석)",
+      "name_kr": "전동시트(뒷좌석)",
+      "name_en": "Power seat (rear)",
+      "name_ru": "Электросиденья (задние)",
+      "Code": "089"
+    },
+    {
+      "Value": "열선시트(앞좌석)",
+      "name_kr": "열선시트(앞좌석)",
+      "name_en": "Heated seats (front)",
+      "name_ru": "Подогрев сидений (передние)",
+      "Code": "022"
+    },
+    {
+      "Value": "열선시트(뒷좌석)",
+      "name_kr": "열선시트(뒷좌석)",
+      "name_en": "Heated seats (rear)",
+      "name_ru": "Подогрев сидений (задние)",
+      "Code": "063"
+    },
+    {
+      "Value": "메모리 시트(운전석)",
+      "name_kr": "메모리 시트(운전석)",
+      "name_en": "Memory seat (driver)",
+      "name_ru": "Память сиденья (водитель)",
+      "Code": "051"
+    },
+    {
+      "Value": "메모리 시트(동승석)",
+      "name_kr": "메모리 시트(동승석)",
+      "name_en": "Memory seat (passenger)",
+      "name_ru": "Память сиденья (пассажир)",
+      "Code": "078"
+    },
+    {
+      "Value": "통풍시트(운전석)",
+      "name_kr": "통풍시트(운전석)",
+      "name_en": "Ventilated seat (driver)",
+      "name_ru": "Вентиляция сиденья (водитель)",
+      "Code": "034"
+    },
+    {
+      "Value": "통풍시트(동승석)",
+      "name_kr": "통풍시트(동승석)",
+      "name_en": "Ventilated seat (passenger)",
+      "name_ru": "Вентиляция сиденья (пассажир)",
+      "Code": "077"
+    },
+    {
+      "Value": "통풍시트(뒷좌석)",
+      "name_kr": "통풍시트(뒷좌석)",
+      "name_en": "Ventilated seats (rear)",
+      "name_ru": "Вентиляция сидений (задние)",
+      "Code": "090"
+    },
+    {
+      "Value": "마사지 시트",
+      "name_kr": "마사지 시트",
+      "name_en": "Massage seats",
+      "name_ru": "Массажные сиденья",
+      "Code": "091"
+    }
+  ],
+  "JatoOptions": [
+    {
+      "Value": "기본",
+      "name_kr": "기본",
+      "name_en": "Basic",
+      "name_ru": "Базовый",
+      "Code": ""
+    },
+    {
+      "Value": "스포츠",
+      "name_kr": "스포츠",
+      "name_en": "Sport",
+      "name_ru": "Спорт",
+      "Code": ""
+    },
+    {
+      "Value": "유광",
+      "name_kr": "유광",
+      "name_en": "Glossy",
+      "name_ru": "Глянцевый",
+      "Code": ""
+    },
+    {
+      "Value": "무광",
+      "name_kr": "무광",
+      "name_en": "Matte",
+      "name_ru": "Матовый",
+      "Code": ""
+    },
+    {
+      "Value": "유광 (스페셜 컬러)",
+      "name_kr": "유광 (스페셜 컬러)",
+      "name_en": "유광 (스페셜 컬러)",
+      "name_ru": "유광 (스페셜 컬러)",
+      "Code": ""
+    },
+    {
+      "Value": "18인치",
+      "name_kr": "18인치",
+      "name_en": "18-inch",
+      "name_ru": "18 дюймов",
+      "Code": ""
+    },
+    {
+      "Value": "19인치",
+      "name_kr": "19인치",
+      "name_en": "19-inch",
+      "name_ru": "19 дюймов",
+      "Code": ""
+    },
+    {
+      "Value": "20인치",
+      "name_kr": "20인치",
+      "name_en": "20-inch",
+      "name_ru": "20 дюймов",
+      "Code": ""
+    },
+    {
+      "Value": "22인치",
+      "name_kr": "22인치",
+      "name_en": "22-inch",
+      "name_ru": "22 дюймов",
+      "Code": ""
+    },
+    {
+      "Value": "21인치",
+      "name_kr": "21인치",
+      "name_en": "21-inch",
+      "name_ru": "21 дюймов",
+      "Code": ""
+    },
+    {
+      "Value": "17인치",
+      "name_kr": "17인치",
+      "name_en": "17-inch",
+      "name_ru": "17 дюймов",
+      "Code": ""
+    },
+    {
+      "Value": "5인승",
+      "name_kr": "5인승",
+      "name_en": "5-seater",
+      "name_ru": "5-местный",
+      "Code": ""
+    },
+    {
+      "Value": "VIP 시트 (4인승)",
+      "name_kr": "VIP 시트 (4인승)",
+      "name_en": "VIP 시트 (4인승)",
+      "name_ru": "VIP 시트 (4인승)",
+      "Code": ""
+    },
+    {
+      "Value": "7인승",
+      "name_kr": "7인승",
+      "name_en": "7-seater",
+      "name_ru": "7-местный",
+      "Code": ""
+    },
+    {
+      "Value": "6인승",
+      "name_kr": "6인승",
+      "name_en": "6-seater",
+      "name_ru": "6-местный",
+      "Code": ""
+    },
+    {
+      "Value": "스탠다드 디자인",
+      "name_kr": "스탠다드 디자인",
+      "name_en": "Standard design",
+      "name_ru": "Стандартный дизайн",
+      "Code": ""
+    },
+    {
+      "Value": "스포츠 스탠다드 디자인",
+      "name_kr": "스포츠 스탠다드 디자인",
+      "name_en": "Sport standard design",
+      "name_ru": "Спортивный стандартный дизайн",
+      "Code": ""
+    },
+    {
+      "Value": "시그니쳐 디자인 셀렉션 II",
+      "name_kr": "시그니쳐 디자인 셀렉션 II",
+      "name_en": "Signature design selection II",
+      "name_ru": "Подбор дизайна Signature II",
+      "Code": ""
+    },
+    {
+      "Value": "시그니쳐 디자인 셀렉션 I",
+      "name_kr": "시그니쳐 디자인 셀렉션 I",
+      "name_en": "Signature design selection I",
+      "name_ru": "Подбор дизайна Signature I",
+      "Code": ""
+    },
+    {
+      "Value": "시그니쳐 디자인 셀렉션",
+      "name_kr": "시그니쳐 디자인 셀렉션",
+      "name_en": "Signature design selection",
+      "name_ru": "Подбор дизайна Signature",
+      "Code": ""
+    },
+    {
+      "Value": "스포츠 디자인 셀렉션",
+      "name_kr": "스포츠 디자인 셀렉션",
+      "name_en": "Sport design selection",
+      "name_ru": "Подбор дизайна Sport",
+      "Code": ""
+    },
+    {
+      "Value": "스포츠 디자인 셀렉션 II",
+      "name_kr": "스포츠 디자인 셀렉션 II",
+      "name_en": "Sport design selection II",
+      "name_ru": "Подбор дизайна Sport II",
+      "Code": ""
+    },
+    {
+      "Value": "시그니쳐 디자인 셀렉션 I+렉시콘 사운드",
+      "name_kr": "시그니쳐 디자인 셀렉션 I+렉시콘 사운드",
+      "name_en": "Signature design selection I + Lexicon sound",
+      "name_ru": "Signature I + аудио Lexicon",
+      "Code": ""
+    },
+    {
+      "Value": "스포츠 디자인 셀렉션 I",
+      "name_kr": "스포츠 디자인 셀렉션 I",
+      "name_en": "Sport design selection I",
+      "name_ru": "Подбор дизайна Sport I",
+      "Code": ""
+    },
+    {
+      "Value": "천연가죽 패키지",
+      "name_kr": "천연가죽 패키지",
+      "name_en": "천연가죽 패키지",
+      "name_ru": "천연가죽 패키지",
+      "Code": ""
+    },
+    {
+      "Value": "쿠페 디자인 셀렉션 ll",
+      "name_kr": "쿠페 디자인 셀렉션 ll",
+      "name_en": "쿠페 디자인 셀렉션 ll",
+      "name_ru": "쿠페 디자인 셀렉션 ll",
+      "Code": ""
+    },
+    {
+      "Value": "시그니쳐 디자인 셀렉션 II & 렉시콘 사운드",
+      "name_kr": "시그니쳐 디자인 셀렉션 II & 렉시콘 사운드",
+      "name_en": "Signature design selection II & Lexicon sound",
+      "name_ru": "Signature II и аудио Lexicon",
+      "Code": ""
+    },
+    {
+      "Value": "시그니쳐 디자인 셀렉션 & G-MATRIX 패턴",
+      "name_kr": "시그니쳐 디자인 셀렉션 & G-MATRIX 패턴",
+      "name_en": "Signature design selection & G-MATRIX pattern",
+      "name_ru": "Signature и рисунок G-MATRIX",
+      "Code": ""
+    },
+    {
+      "Value": "시그니쳐 디자인 셀렉션 III & 렉시콘 사운드",
+      "name_kr": "시그니쳐 디자인 셀렉션 III & 렉시콘 사운드",
+      "name_en": "시그니쳐 디자인 셀렉션 III & 렉시콘 사운드",
+      "name_ru": "시그니쳐 디자인 셀렉션 III & 렉시콘 사운드",
+      "Code": ""
+    },
+    {
+      "Value": "쿠페 디자인 셀렉션 I",
+      "name_kr": "쿠페 디자인 셀렉션 I",
+      "name_en": "쿠페 디자인 셀렉션 I",
+      "name_ru": "쿠페 디자인 셀렉션 I",
+      "Code": ""
+    },
+    {
+      "Value": "퍼포먼스 디자인 셀렉션",
+      "name_kr": "퍼포먼스 디자인 셀렉션",
+      "name_en": "Performance design selection",
+      "name_ru": "Подбор дизайна Performance",
+      "Code": ""
+    },
+    {
+      "Value": "퍼포먼스 스탠다드 디자인",
+      "name_kr": "퍼포먼스 스탠다드 디자인",
+      "name_en": "Performance standard design",
+      "name_ru": "Стандартный дизайн Performance",
+      "Code": ""
+    },
+    {
+      "Value": "스포츠 디자인 셀렉션 III",
+      "name_kr": "스포츠 디자인 셀렉션 III",
+      "name_en": "Sport design selection III",
+      "name_ru": "Подбор дизайна Sport III",
+      "Code": ""
+    },
+    {
+      "Value": "시그니쳐 디자인 셀렉션 II (코퍼 패키지)",
+      "name_kr": "시그니쳐 디자인 셀렉션 II (코퍼 패키지)",
+      "name_en": "Signature design selection II (Copper package)",
+      "name_ru": "Signature II (медный пакет)",
+      "Code": ""
+    },
+    {
+      "Value": "파퓰러 패키지",
+      "name_kr": "파퓰러 패키지",
+      "name_en": "Popular package",
+      "name_ru": "Пакет Popular",
+      "Code": ""
+    },
+    {
+      "Value": "빌트인 캠 패키지",
+      "name_kr": "빌트인 캠 패키지",
+      "name_en": "Built-in cam package",
+      "name_ru": "Пакет встроенной камеры",
+      "Code": ""
+    },
+    {
+      "Value": "컨비니언스 패키지",
+      "name_kr": "컨비니언스 패키지",
+      "name_en": "Convenience package",
+      "name_ru": "Пакет Convenience",
+      "Code": ""
+    },
+    {
+      "Value": "드라이빙 어시스턴스 패키지 II",
+      "name_kr": "드라이빙 어시스턴스 패키지 II",
+      "name_en": "Driving assistance package II",
+      "name_ru": "Пакет помощи водителю II",
+      "Code": ""
+    },
+    {
+      "Value": "렉시콘 사운드 패키지",
+      "name_kr": "렉시콘 사운드 패키지",
+      "name_en": "Lexicon sound package",
+      "name_ru": "Пакет аудио Lexicon",
+      "Code": ""
+    },
+    {
+      "Value": "드라이빙 어시스턴스 패키지 I",
+      "name_kr": "드라이빙 어시스턴스 패키지 I",
+      "name_en": "Driving assistance package I",
+      "name_ru": "Пакет помощи водителю I",
+      "Code": ""
+    },
+    {
+      "Value": "파퓰러 패키지 I",
+      "name_kr": "파퓰러 패키지 I",
+      "name_en": "Popular package I",
+      "name_ru": "Пакет Popular I",
+      "Code": ""
+    },
+    {
+      "Value": "하이테크 패키지",
+      "name_kr": "하이테크 패키지",
+      "name_en": "High-tech package",
+      "name_ru": "Пакет High-tech",
+      "Code": ""
+    },
+    {
+      "Value": "2열 컴포트 패키지 II",
+      "name_kr": "2열 컴포트 패키지 II",
+      "name_en": "2nd-row comfort package II",
+      "name_ru": "Пакет комфорта 2-го ряда II",
+      "Code": ""
+    },
+    {
+      "Value": "2열 컴포트 패키지",
+      "name_kr": "2열 컴포트 패키지",
+      "name_en": "2nd-row comfort package",
+      "name_ru": "Пакет комфорта 2-го ряда",
+      "Code": ""
+    },
+    {
+      "Value": "스마트 센스 패키지",
+      "name_kr": "스마트 센스 패키지",
+      "name_en": "스마트 센스 패키지",
+      "name_ru": "스마트 센스 패키지",
+      "Code": ""
+    },
+    {
+      "Value": "아웃도어 패키지",
+      "name_kr": "아웃도어 패키지",
+      "name_en": "Outdoor package",
+      "name_ru": "Пакет Outdoor",
+      "Code": ""
+    },
+    {
+      "Value": "뱅앤올룹슨 사운드 패키지",
+      "name_kr": "뱅앤올룹슨 사운드 패키지",
+      "name_en": "뱅앤올룹슨 사운드 패키지",
+      "name_ru": "뱅앤올룹슨 사운드 패키지",
+      "Code": ""
+    },
+    {
+      "Value": "뒷좌석 컴포트 패키지",
+      "name_kr": "뒷좌석 컴포트 패키지",
+      "name_en": "뒷좌석 컴포트 패키지",
+      "name_ru": "뒷좌석 컴포트 패키지",
+      "Code": ""
+    },
+    {
+      "Value": "컴포트 패키지",
+      "name_kr": "컴포트 패키지",
+      "name_en": "컴포트 패키지",
+      "name_ru": "컴포트 패키지",
+      "Code": ""
+    },
+    {
+      "Value": "드라이빙 어시스턴스 패키지",
+      "name_kr": "드라이빙 어시스턴스 패키지",
+      "name_en": "Driving assistance package",
+      "name_ru": "Пакет помощи водителю",
+      "Code": ""
+    },
+    {
+      "Value": "파퓰러 패키지 II",
+      "name_kr": "파퓰러 패키지 II",
+      "name_en": "Popular package II",
+      "name_ru": "Пакет Popular II",
+      "Code": ""
+    },
+    {
+      "Value": "2열 컴포트 패키지 I",
+      "name_kr": "2열 컴포트 패키지 I",
+      "name_en": "2nd-row comfort package I",
+      "name_ru": "Пакет комфорта 2-го ряда I",
+      "Code": ""
+    },
+    {
+      "Value": "프리미엄 컬렉션",
+      "name_kr": "프리미엄 컬렉션",
+      "name_en": "Premium collection",
+      "name_ru": "Премиальная коллекция",
+      "Code": ""
+    },
+    {
+      "Value": "뒷좌석 컴포트 패키지 II",
+      "name_kr": "뒷좌석 컴포트 패키지 II",
+      "name_en": "뒷좌석 컴포트 패키지 II",
+      "name_ru": "뒷좌석 컴포트 패키지 II",
+      "Code": ""
+    },
+    {
+      "Value": "프레스티지 컬렉션",
+      "name_kr": "프레스티지 컬렉션",
+      "name_en": "Prestige collection",
+      "name_ru": "Коллекция Prestige",
+      "Code": ""
+    },
+    {
+      "Value": "뒷좌석 컴포트 패키지 I",
+      "name_kr": "뒷좌석 컴포트 패키지 I",
+      "name_en": "뒷좌석 컴포트 패키지 I",
+      "name_ru": "뒷좌석 컴포트 패키지 I",
+      "Code": ""
+    },
+    {
+      "Value": "컴포트 패키지 I",
+      "name_kr": "컴포트 패키지 I",
+      "name_en": "컴포트 패키지 I",
+      "name_ru": "컴포트 패키지 I",
+      "Code": ""
+    },
+    {
+      "Value": "컴포트 패키지 II",
+      "name_kr": "컴포트 패키지 II",
+      "name_en": "컴포트 패키지 II",
+      "name_ru": "컴포트 패키지 II",
+      "Code": ""
+    },
+    {
+      "Value": "LED 라이팅 패키지",
+      "name_kr": "LED 라이팅 패키지",
+      "name_en": "LED lighting package",
+      "name_ru": "Световой пакет LED",
+      "Code": ""
+    },
+    {
+      "Value": "시트 패키지",
+      "name_kr": "시트 패키지",
+      "name_en": "Seat package",
+      "name_ru": "Пакет сидений",
+      "Code": ""
+    },
+    {
+      "Value": "다이내믹 패키지",
+      "name_kr": "다이내믹 패키지",
+      "name_en": "Dynamic package",
+      "name_ru": "Пакет Dynamic",
+      "Code": ""
+    },
+    {
+      "Value": "라이프 스타일 패키지",
+      "name_kr": "라이프 스타일 패키지",
+      "name_en": "Lifestyle package",
+      "name_ru": "Пакет Lifestyle",
+      "Code": ""
+    },
+    {
+      "Value": "파퓰러 컬렉션",
+      "name_kr": "파퓰러 컬렉션",
+      "name_en": "파퓰러 컬렉션",
+      "name_ru": "파퓰러 컬렉션",
+      "Code": ""
+    },
+    {
+      "Value": "얼티밋 패키지 lll",
+      "name_kr": "얼티밋 패키지 lll",
+      "name_en": "Ultimate package III",
+      "name_ru": "Пакет Ultimate III",
+      "Code": ""
+    },
+    {
+      "Value": "카본 패키지",
+      "name_kr": "카본 패키지",
+      "name_en": "Carbon package",
+      "name_ru": "Пакет Carbon",
+      "Code": ""
+    },
+    {
+      "Value": "다이내믹 패키지 ll",
+      "name_kr": "다이내믹 패키지 ll",
+      "name_en": "Dynamic package II",
+      "name_ru": "Пакет Dynamic II",
+      "Code": ""
+    },
+    {
+      "Value": "아웃도어 패키지 & 비전루프",
+      "name_kr": "아웃도어 패키지 & 비전루프",
+      "name_en": "Outdoor package & Vision Roof",
+      "name_ru": "Пакет Outdoor и Vision Roof",
+      "Code": ""
+    },
+    {
+      "Value": "파노라마 선루프",
+      "name_kr": "파노라마 선루프",
+      "name_en": "Panoramic sunroof",
+      "name_ru": "Панорамный люк",
+      "Code": ""
+    },
+    {
+      "Value": "헤드업 디스플레이",
+      "name_kr": "헤드업 디스플레이",
+      "name_en": "Head-up display",
+      "name_ru": "Проекционный дисплей",
+      "Code": ""
+    },
+    {
+      "Value": "와이드 선루프",
+      "name_kr": "와이드 선루프",
+      "name_en": "Wide sunroof",
+      "name_ru": "Широкий люк",
+      "Code": ""
+    },
+    {
+      "Value": "세이프티 선루프",
+      "name_kr": "세이프티 선루프",
+      "name_en": "Safety sunroof",
+      "name_ru": "Безопасный люк",
+      "Code": ""
+    },
+    {
+      "Value": "뒷좌석 듀얼 모니터",
+      "name_kr": "뒷좌석 듀얼 모니터",
+      "name_en": "뒷좌석 듀얼 모니터",
+      "name_ru": "뒷좌석 듀얼 모니터",
+      "Code": ""
+    },
+    {
+      "Value": "엑티브 세이프티 컨트롤 II",
+      "name_kr": "엑티브 세이프티 컨트롤 II",
+      "name_en": "Active Safety Control II",
+      "name_ru": "Active Safety Control II",
+      "Code": ""
+    },
+    {
+      "Value": "프리뷰 전자제어 서스펜션",
+      "name_kr": "프리뷰 전자제어 서스펜션",
+      "name_en": "Preview electronic suspension",
+      "name_ru": "Предиктивная электронная подвеска",
+      "Code": ""
+    },
+    {
+      "Value": "멀티 챔버 에어 서스펜션",
+      "name_kr": "멀티 챔버 에어 서스펜션",
+      "name_en": "Multi-chamber air suspension",
+      "name_ru": "Многокамерная пневмоподвеска",
+      "Code": ""
+    },
+    {
+      "Value": "능동형 후륜 조향",
+      "name_kr": "능동형 후륜 조향",
+      "name_en": "Active rear-wheel steering",
+      "name_ru": "Активное руление задних колёс",
+      "Code": ""
+    },
+    {
+      "Value": "엑티브 세이프티 컨트롤",
+      "name_kr": "엑티브 세이프티 컨트롤",
+      "name_en": "Active Safety Control",
+      "name_ru": "Active Safety Control",
+      "Code": ""
+    },
+    {
+      "Value": "이지 클로즈 시스템",
+      "name_kr": "이지 클로즈 시스템",
+      "name_en": "이지 클로즈 시스템",
+      "name_ru": "이지 클로즈 시스템",
+      "Code": ""
+    },
+    {
+      "Value": "전동식 뒷좌석 듀얼모니터",
+      "name_kr": "전동식 뒷좌석 듀얼모니터",
+      "name_en": "Power rear dual monitors",
+      "name_ru": "Электроприводные двойные мониторы сзади",
+      "Code": ""
+    },
+    {
+      "Value": "비전루프",
+      "name_kr": "비전루프",
+      "name_en": "Vision Roof",
+      "name_ru": "Vision Roof",
+      "Code": ""
+    },
+    {
+      "Value": "후석 스마트 엔터테인먼트",
+      "name_kr": "후석 스마트 엔터테인먼트",
+      "name_en": "Rear smart entertainment",
+      "name_ru": "Задняя мультимедиа Smart",
+      "Code": ""
+    },
+    {
+      "Value": "3D 클러스터 (12.3인치)",
+      "name_kr": "3D 클러스터 (12.3인치)",
+      "name_en": "3D cluster (12.3\")",
+      "name_ru": "3D-панель приборов (12,3\")",
+      "Code": ""
+    },
+    {
+      "Value": "뱅앤올룹슨 사운드 시스템",
+      "name_kr": "뱅앤올룹슨 사운드 시스템",
+      "name_en": "Bang & Olufsen sound system",
+      "name_ru": "Аудиосистема Bang & Olufsen",
+      "Code": ""
+    },
+    {
+      "Value": "브렘보 브레이크",
+      "name_kr": "브렘보 브레이크",
+      "name_en": "Brembo brakes",
+      "name_ru": "Тормоза Brembo",
+      "Code": ""
+    },
+    {
+      "Value": "솔라루프",
+      "name_kr": "솔라루프",
+      "name_en": "Solar roof",
+      "name_ru": "Солнечная крыша",
+      "Code": ""
+    },
+    {
+      "Value": "디지털 사이드 미러",
+      "name_kr": "디지털 사이드 미러",
+      "name_en": "Digital side mirrors",
+      "name_ru": "Цифровые боковые зеркала",
+      "Code": ""
+    },
+    {
+      "Value": "엑티브 세이프티 컨트롤 I",
+      "name_kr": "엑티브 세이프티 컨트롤 I",
+      "name_en": "Active Safety Control I",
+      "name_ru": "Active Safety Control I",
+      "Code": ""
+    },
+    {
+      "Value": "전자제어 서스펜션",
+      "name_kr": "전자제어 서스펜션",
+      "name_en": "Electronic controlled suspension",
+      "name_ru": "Электронно управляемая подвеска",
+      "Code": ""
+    },
+    {
+      "Value": "후방 충돌 경고",
+      "name_kr": "후방 충돌 경고",
+      "name_en": "Rear collision warning",
+      "name_ru": "Предупреждение о столкновении сзади",
+      "Code": ""
+    }
+  ],
+  "AdType": [
+    {
+      "Value": "G",
+      "name_kr": "모바일강조형",
+      "name_en": "Mobile highlight",
+      "name_ru": "Мобильный акцент",
+      "Code": ""
+    },
+    {
+      "Value": "B",
+      "name_kr": "우대등록",
+      "name_en": "Priority listing",
+      "name_ru": "Приоритетное размещение",
+      "Code": ""
+    },
+    {
+      "Value": "C",
+      "name_kr": "핫마크",
+      "name_en": "Hot mark",
+      "name_ru": "Горячая метка",
+      "Code": ""
+    },
+    {
+      "Value": "A",
+      "name_kr": "사진우대",
+      "name_en": "Photo premium",
+      "name_ru": "Фото-премиум",
+      "Code": ""
+    },
+    {
+      "Value": "D",
+      "name_kr": "파워팩",
+      "name_en": "Power pack",
+      "name_ru": "Пауэр-пакет",
+      "Code": ""
+    },
+    {
+      "Value": "E",
+      "name_kr": "모바일프리미엄",
+      "name_en": "Mobile premium",
+      "name_ru": "Мобильный премиум",
+      "Code": ""
+    },
+    {
+      "Value": "F",
+      "name_kr": "모바일우대",
+      "name_en": "Mobile preferred",
+      "name_ru": "Мобильное привилегированное",
+      "Code": ""
+    }
+  ],
+  "Accident": [
+    {
+      "Value": "N",
+      "name_kr": "N",
+      "name_en": "N",
+      "name_ru": "N",
+      "Code": ""
+    },
+    {
+      "Value": "F",
+      "name_kr": "F",
+      "name_en": "F",
+      "name_ru": "F",
+      "Code": ""
+    },
+    {
+      "Value": "Y",
+      "name_kr": "Y",
+      "name_en": "Y",
+      "name_ru": "Y",
+      "Code": ""
+    }
+  ],
+  "Lease": [
+    {
+      "Value": "1",
+      "name_kr": "1",
+      "name_en": "1",
+      "name_ru": "1",
+      "Code": ""
+    },
+    {
+      "Value": "2",
+      "name_kr": "2",
+      "name_en": "2",
+      "name_ru": "2",
+      "Code": ""
+    }
+  ],
+  "DealerShipNm": [
+    {
+      "Value": "강원 원주단지",
+      "name_kr": "강원 원주단지",
+      "name_en": "강원 원주단지",
+      "name_ru": "강원 원주단지",
+      "Code": ""
+    },
+    {
+      "Value": "경기 SAC",
+      "name_kr": "경기 SAC",
+      "name_en": "경기 SAC",
+      "name_ru": "경기 SAC",
+      "Code": ""
+    },
+    {
+      "Value": "경기 경기매매단지",
+      "name_kr": "경기 경기매매단지",
+      "name_en": "경기 경기매매단지",
+      "name_ru": "경기 경기매매단지",
+      "Code": ""
+    },
+    {
+      "Value": "경기 김포 국민차매매단지",
+      "name_kr": "경기 김포 국민차매매단지",
+      "name_en": "경기 김포 국민차매매단지",
+      "name_ru": "경기 김포 국민차매매단지",
+      "Code": ""
+    },
+    {
+      "Value": "경기 다카단지",
+      "name_kr": "경기 다카단지",
+      "name_en": "경기 다카단지",
+      "name_ru": "경기 다카단지",
+      "Code": ""
+    },
+    {
+      "Value": "경기 도이치오토월드",
+      "name_kr": "경기 도이치오토월드",
+      "name_en": "경기 도이치오토월드",
+      "name_ru": "경기 도이치오토월드",
+      "Code": ""
+    },
+    {
+      "Value": "경기 라성단지",
+      "name_kr": "경기 라성단지",
+      "name_en": "경기 라성단지",
+      "name_ru": "경기 라성단지",
+      "Code": ""
+    },
+    {
+      "Value": "경기 마트단지",
+      "name_kr": "경기 마트단지",
+      "name_en": "경기 마트단지",
+      "name_ru": "경기 마트단지",
+      "Code": ""
+    },
+    {
+      "Value": "경기 수원모터파크",
+      "name_kr": "경기 수원모터파크",
+      "name_en": "경기 수원모터파크",
+      "name_ru": "경기 수원모터파크",
+      "Code": ""
+    },
+    {
+      "Value": "경기 양주 타이거오토몰",
+      "name_kr": "경기 양주 타이거오토몰",
+      "name_en": "경기 양주 타이거오토몰",
+      "name_ru": "경기 양주 타이거오토몰",
+      "Code": ""
+    },
+    {
+      "Value": "경기 오토돔",
+      "name_kr": "경기 오토돔",
+      "name_en": "경기 오토돔",
+      "name_ru": "경기 오토돔",
+      "Code": ""
+    },
+    {
+      "Value": "경기 오토플래닛(일산풍동)-리스",
+      "name_kr": "경기 오토플래닛(일산풍동)-리스",
+      "name_en": "경기 오토플래닛(일산풍동)-리스",
+      "name_ru": "경기 오토플래닛(일산풍동)-리스",
+      "Code": ""
+    },
+    {
+      "Value": "경기 오토플러스2(일산풍동)",
+      "name_kr": "경기 오토플러스2(일산풍동)",
+      "name_en": "경기 오토플러스2(일산풍동)",
+      "name_ru": "경기 오토플러스2(일산풍동)",
+      "Code": ""
+    },
+    {
+      "Value": "경기 오토허브",
+      "name_kr": "경기 오토허브",
+      "name_en": "경기 오토허브",
+      "name_ru": "경기 오토허브",
+      "Code": ""
+    },
+    {
+      "Value": "경기 용인모빌월드",
+      "name_kr": "경기 용인모빌월드",
+      "name_en": "경기 용인모빌월드",
+      "name_ru": "경기 용인모빌월드",
+      "Code": ""
+    },
+    {
+      "Value": "경남 KC월드카프라자",
+      "name_kr": "경남 KC월드카프라자",
+      "name_en": "경남 KC월드카프라자",
+      "name_ru": "경남 KC월드카프라자",
+      "Code": ""
+    },
+    {
+      "Value": "경남 M모터스프라자",
+      "name_kr": "경남 M모터스프라자",
+      "name_en": "경남 M모터스프라자",
+      "name_ru": "경남 M모터스프라자",
+      "Code": ""
+    },
+    {
+      "Value": "경남 디오 오토갤러리",
+      "name_kr": "경남 디오 오토갤러리",
+      "name_en": "경남 디오 오토갤러리",
+      "name_ru": "경남 디오 오토갤러리",
+      "Code": ""
+    },
+    {
+      "Value": "경북 포항 중고차 일번지 매매단지",
+      "name_kr": "경북 포항 중고차 일번지 매매단지",
+      "name_en": "경북 포항 중고차 일번지 매매단지",
+      "name_ru": "경북 포항 중고차 일번지 매매단지",
+      "Code": ""
+    },
+    {
+      "Value": "광주 엠플러스A",
+      "name_kr": "광주 엠플러스A",
+      "name_en": "광주 엠플러스A",
+      "name_ru": "광주 엠플러스A",
+      "Code": ""
+    },
+    {
+      "Value": "광주 오토갤러리",
+      "name_kr": "광주 오토갤러리",
+      "name_en": "광주 오토갤러리",
+      "name_ru": "광주 오토갤러리",
+      "Code": ""
+    },
+    {
+      "Value": "대구 대구월암매매단지",
+      "name_kr": "대구 대구월암매매단지",
+      "name_en": "대구 대구월암매매단지",
+      "name_ru": "대구 대구월암매매단지",
+      "Code": ""
+    },
+    {
+      "Value": "대구 삼공단",
+      "name_kr": "대구 삼공단",
+      "name_en": "대구 삼공단",
+      "name_ru": "대구 삼공단",
+      "Code": ""
+    },
+    {
+      "Value": "대구 오토월드",
+      "name_kr": "대구 오토월드",
+      "name_en": "대구 오토월드",
+      "name_ru": "대구 오토월드",
+      "Code": ""
+    },
+    {
+      "Value": "부산 1001",
+      "name_kr": "부산 1001",
+      "name_en": "부산 1001",
+      "name_ru": "부산 1001",
+      "Code": ""
+    },
+    {
+      "Value": "부산 KC오토월드",
+      "name_kr": "부산 KC오토월드",
+      "name_en": "부산 KC오토월드",
+      "name_ru": "부산 KC오토월드",
+      "Code": ""
+    },
+    {
+      "Value": "부산 부산감만단지",
+      "name_kr": "부산 부산감만단지",
+      "name_en": "부산 부산감만단지",
+      "name_ru": "부산 부산감만단지",
+      "Code": ""
+    },
+    {
+      "Value": "부산 부산경동오토필드",
+      "name_kr": "부산 부산경동오토필드",
+      "name_en": "부산 부산경동오토필드",
+      "name_ru": "부산 부산경동오토필드",
+      "Code": ""
+    },
+    {
+      "Value": "부산 사직오토랜드",
+      "name_kr": "부산 사직오토랜드",
+      "name_en": "부산 사직오토랜드",
+      "name_ru": "부산 사직오토랜드",
+      "Code": ""
+    },
+    {
+      "Value": "부산 신평",
+      "name_kr": "부산 신평",
+      "name_en": "부산 신평",
+      "name_ru": "부산 신평",
+      "Code": ""
+    },
+    {
+      "Value": "서울 강서오토플렉스",
+      "name_kr": "서울 강서오토플렉스",
+      "name_en": "서울 강서오토플렉스",
+      "name_ru": "서울 강서오토플렉스",
+      "Code": ""
+    },
+    {
+      "Value": "울산 국민차매매단지",
+      "name_kr": "울산 국민차매매단지",
+      "name_en": "울산 국민차매매단지",
+      "name_ru": "울산 국민차매매단지",
+      "Code": ""
+    },
+    {
+      "Value": "인천 엠파크타워",
+      "name_kr": "인천 엠파크타워",
+      "name_en": "인천 엠파크타워",
+      "name_ru": "인천 엠파크타워",
+      "Code": ""
+    },
+    {
+      "Value": "인천 엠파크허브",
+      "name_kr": "인천 엠파크허브",
+      "name_en": "인천 엠파크허브",
+      "name_ru": "인천 엠파크허브",
+      "Code": ""
+    },
+    {
+      "Value": "인천 오토드림",
+      "name_kr": "인천 오토드림",
+      "name_en": "인천 오토드림",
+      "name_ru": "인천 오토드림",
+      "Code": ""
+    },
+    {
+      "Value": "인천 주안매매단지",
+      "name_kr": "인천 주안매매단지",
+      "name_en": "인천 주안매매단지",
+      "name_ru": "인천 주안매매단지",
+      "Code": ""
+    },
+    {
+      "Value": "인천 청라 오토플러스",
+      "name_kr": "인천 청라 오토플러스",
+      "name_en": "인천 청라 오토플러스",
+      "name_ru": "인천 청라 오토플러스",
+      "Code": ""
+    },
+    {
+      "Value": "전북 팔봉오토파크",
+      "name_kr": "전북 팔봉오토파크",
+      "name_en": "전북 팔봉오토파크",
+      "name_ru": "전북 팔봉오토파크",
+      "Code": ""
+    }
+  ],
+  "ServiceCopyCar": [
+    {
+      "Value": "ORIGINAL",
+      "name_kr": "ORIGINAL",
+      "name_en": "ORIGINAL",
+      "name_ru": "ORIGINAL",
+      "Code": ""
+    },
+    {
+      "Value": "DUPLICATION",
+      "name_kr": "DUPLICATION",
+      "name_en": "DUPLICATION",
+      "name_ru": "DUPLICATION",
+      "Code": ""
+    }
+  ]
+}

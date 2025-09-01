@@ -134,7 +134,7 @@ class CarGeneralInfo(TimestampedModel):
     model = models.ForeignKey(Model, on_delete=models.CASCADE, related_name="cars")
     generation = models.ForeignKey(Generation, on_delete=models.CASCADE, related_name="cars", blank=True, null=True)
     year = models.PositiveSmallIntegerField()
-    engine_volume = models.DecimalField(max_digits=5, decimal_places=2)
+    engine_volume = models.DecimalField(max_digits=5, decimal_places=2,null=True, blank=True)
     salon_color = models.ForeignKey(Color, on_delete=models.CASCADE, related_name="cars", null=True, blank=True)
     SALON_TYPE_CHOICES = [
         ('LEATHER', 'Кожа'),
@@ -209,7 +209,7 @@ class CarGeneralInfo(TimestampedModel):
 
     class Meta:
         ordering = ["-created_at"]
-        db_table = "car"
+        db_table = "car_general_info"
         indexes = [
             models.Index(fields=["year"]),
             models.Index(fields=["horse_power"]),
